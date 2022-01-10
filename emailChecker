@@ -1,0 +1,7 @@
+const emailCompare = function (emailCorrect, emailEntry) {
+  if (emailEntry === emailCorrect) console.log('Emails match');
+  else {
+    const correctEmail = emailEntry.toLowerCase().trim();
+    console.log(correctEmail);
+  }
+};
