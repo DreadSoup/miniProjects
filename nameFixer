@@ -1,0 +1,6 @@
+const nameFixer = function (anyName) {
+  const nameLower = anyName.toLowerCase();
+  const nameCorrect =
+   nameLower[0].toUpperCase() + nameLower.slice(1);
+  console.log(nameCorrect);
+};
