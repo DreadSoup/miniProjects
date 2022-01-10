@@ -1,0 +1,5 @@
+const maskCredit = function (number) {
+  const str = number + '';
+  const last = str.slice(-4);
+  return last.padStart(str.length, '*');
+};
