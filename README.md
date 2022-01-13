@@ -9,3 +9,5 @@ e.g. '   StUARtrItTOngFOn@gMAIl.Com   ' becomes 'stuartrittongfon@gmail.com'
 
   maskCardNumber : A simple function that masks the numbers entered for a payment card <p>
     e.g. '8372858375576844' becomes '************6844'
+
+    vatCalculator : A simple program implementing functions returning functions - calculates a percentage increase
